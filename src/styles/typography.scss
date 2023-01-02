@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+body{
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.fw-300{
+  font-weight: 300;
+}
+
+.fw-700{
+  font-weight: 700;
+}
+
+.text-1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+
+  color: #1e3e71;
+}
+
+.text-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.icon-size-1 {
+  width: 2rem;
+}
+
+.list-text {
+  margin-bottom: 0 !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+
+// Card
+.card-title-1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  color: #b26d3c;
+}
+
+.card-title-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+
+  color: #b26d3c;
+}
+
+a{
+  text-decoration: none;
+  font-style: normal;
+  // font-weight: 300 !important;
+  // font-size: 18px;
+
+  &:hover{
+    text-decoration: none;
+    // font-weight: 500 !important;
+    // font-size: 18px;
+  }
+
+  &:active{
+    text-decoration: none;
+    // font-weight: 500 !important;
+    // font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 425px){
+  .list-text {
+    font-size: 12px;
+  }
+
+
+}
+
+

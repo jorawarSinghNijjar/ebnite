@@ -1,0 +1,35 @@
+.feature-3-image {
+  background-image: url("../../../images/feature-3-image.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  z-index: 2;
+}
+
+.bottom-style-box {
+  height: 158px;
+  width: 100%;
+  background-color: #a5dbf3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .feature-3-image {
+    height: 550px;
+    margin:0 auto !important;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .feature-3-image {
+    max-height: 300px;
+  }
+}
+
+

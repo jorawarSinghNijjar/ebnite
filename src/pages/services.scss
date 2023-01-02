@@ -1,0 +1,27 @@
+.services-slogan {
+  color: #fe9843;
+  &__primary {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  &__secondary {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 48px;
+  }
+
+  &__btn {
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 24px;
+  }
+}

@@ -1,0 +1,44 @@
+.employee-card {
+  &__icon-img {
+    width: 33px;
+  }
+}
+
+.employee-card-body {
+  background: #10213c;
+  border-radius: 10px;
+
+  font-family: "Oswald";
+  font-style: normal;
+
+  text-transform: capitalize;
+  color: #ffffff;
+
+  &__name {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0;
+    text-align: left;
+    color: #ebf1fa;
+  }
+
+  &__position {
+    font-weight: 300;
+    font-size: 25px;
+    padding: 0;
+    text-align: right;
+    color: #ebf1fa;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .employee-card-body {
+    &__name {
+      font-size: 20px;
+    }
+
+    &__position {
+      font-size: 20px;
+    }
+  }
+}

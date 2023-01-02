@@ -1,0 +1,20 @@
+.contact-form-heading {
+  color: #2c4978;
+
+  &__primary {
+    font-family: "Oswald";
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+  }
+
+  &__secondary {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

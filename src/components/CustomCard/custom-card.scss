@@ -1,0 +1,36 @@
+.custom-card {
+  margin: 35px 30px 35px 0;
+  padding: 20px 0;
+  max-width: 400px;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+}
+
+.custom-card-img-box {
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.custom-card-img {
+  width: 105.83px;
+  height: 103.78px;
+}
+
+.custom-card-title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 49px;
+  /* or 153% */
+
+  text-transform: capitalize;
+}
+
+.custom-card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}

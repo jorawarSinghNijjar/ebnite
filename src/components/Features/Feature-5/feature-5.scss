@@ -1,0 +1,14 @@
+.client-icon {
+  width: 134px;
+  height: 134px;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .client-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+}
+

@@ -1,0 +1,48 @@
+// change theme colors
+$theme-colors: (
+  "primary": #1e3e71,
+  "secondary": #fe9843,
+  "highlight": #aa453d,
+  "secondary-dark": #975c2b,
+  "primary-light": #ebf1fa,
+);
+
+// Change font size
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base * 4;
+$h2-font-size: $font-size-base * 3.25;
+$h3-font-size: $font-size-base * 3;
+$h4-font-size: $font-size-base * 2.5;
+$h5-font-size: $font-size-base * 2;
+$h6-font-size: $font-size-base * 1.5;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+);
+
+//Pagination
+$link-color: #1e3e71;
+$pagination-focus-color: #fe9843;
+$pagination-border-color: transparent;
+$pagination-hover-color: #fe9843;
+$pagination-active-color: #fe9843;
+$pagination-active-bg: transparent;
+
+//Forms
+$input-border-color: rgba(38, 38, 38, 0.2);
+$form-label-margin-bottom:              14px;
+$form-label-font-size:                  16px;
+$form-label-font-style:                 normal;
+$form-label-font-weight:                700;
+$form-label-color:                       #262626;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
