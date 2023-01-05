@@ -1,8 +1,7 @@
 import React, {useEffect} from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import Feature1 from "../components/Features/Feature-1/Feature1";
-import { Footer } from "../components/Footer/Footer";
-import { TeamDetailsSection } from "../components/TeamDetailsSection/TeamDetailsSection";
+// import { TeamDetailsSection } from "../components/TeamDetailsSection/TeamDetailsSection";
 import heroImg from "../images/about-hero-img.png";
 
 //Feture 1 Card Images
@@ -73,9 +72,9 @@ const About = () => {
         />
       </Row>
       <Row>
-        <TeamDetailsSection
+        {/* <TeamDetailsSection
           secondaryHeading="We’d like to introduce you to some of the people who make Ebnite what it is today.
-"
+" */}
         />
       </Row>
       <Row>

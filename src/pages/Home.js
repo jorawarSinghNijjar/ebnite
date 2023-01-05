@@ -1,11 +1,9 @@
 import React, {useEffect} from "react";
 import { Col, Row, Container } from "react-bootstrap";
 
-import NavbarComp from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 
-import { TeamSection } from "../components/TeamSection/TeamSection";
-import { Footer } from "../components/Footer/Footer";
+// import { TeamSection } from "../components/TeamSection/TeamSection";
 import Feature1 from "../components/Features/Feature-1/Feature1";
 import Feature2 from "../components/Features/Feature-2/Feature2";
 import Feature3 from "../components/Features/Feature-3/Feature3";
@@ -72,7 +70,7 @@ const Home = () => {
       <Feature2 />
       <Feature3 />
       <Feature4 />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <Feature5 />
     </>
   );

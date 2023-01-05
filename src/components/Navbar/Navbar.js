@@ -56,14 +56,14 @@ const NavbarComp = () => {
               >
                 Services
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/blog"
                 bsPrefix="c"
                 className={`c-nav-link ${pathname === "/blog" ? "active": ""}`}
               >
                 Blog
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 as={Link}
                 to="/contact-us"
