@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import App from "./App.js";
@@ -38,6 +38,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:"/*",
+    element: <Navigate to="/" replace />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
