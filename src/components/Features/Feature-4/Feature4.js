@@ -20,7 +20,7 @@ const Feature4 = () => {
       <h2 className="feature-heading feature-heading__primary pb-2 text-center border-bottom">
         Why People Choose Us
       </h2>
-      <Row >
+      <Row className="mt-5">
         {statsCardData.map(({ number, title, icon }, idx) => (
           <Col key={idx}>
             <StatsCard number={number} title={title} icon={icon}/>
